@@ -1,0 +1,5 @@
+create  'dmp_wanka',
+{NAME => 'info',BLOOMFILTER => 'ROWCOL',COMPRESSION => 'SNAPPY'},
+{NUMREGIONS => 15, SPLITALGO => 'HexStringSplit'},
+{NAME => 'app',BLOOMFILTER => 'ROWCOL',COMPRESSION => 'SNAPPY'},
+{NUMREGIONS => 9, SPLITALGO => 'HexStringSplit'}
