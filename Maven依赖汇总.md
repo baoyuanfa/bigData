@@ -131,6 +131,21 @@
 </dependency>
 ~~~
 
+~~~
+<dependency>
+	<groupId>org.apache.flink</groupId>
+	<artifactId>flink-scala_2.11</artifactId>
+	<version>1.7.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.flink/flink-streaming-scala -->
+<dependency>
+	<groupId>org.apache.flink</groupId>
+	<artifactId>flink-streaming-scala_2.11</artifactId>
+	<version>1.7.0</version>
+</dependency>
+~~~
+
 ### 3.JDBC
 
 ~~~
